@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Word
+namespace Word.Models
 {
   public class WordChecker
   {
@@ -24,6 +24,5 @@ namespace Word
         return false;
       }
     }
-    
   }
 }
