@@ -7,7 +7,7 @@ using System.Linq;
 namespace Scrabble.Tests
 {
   [TestClass]
-  public class ClassNameTests //edit
+  public class WordScrabbleTests
   {
     [TestMethod]
     public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue() //edit
