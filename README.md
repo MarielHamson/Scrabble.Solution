@@ -22,7 +22,7 @@ This application will allow the user to play scrabble with the console. The user
 
 | Spec 	| Input 	| Output 	|
 |-	|-	|-	|
-| Accept a UserInput 	| "sparkle" 	| Your scrabble word is "sparkle" 	|
+| Create object constructor that will accept a UserInput 	| "sparkle" 	| Your scrabble word is "sparkle" 	|
 | Validate UserInput against criteria (no non-alpha) 	| R2d2 	| "no non-alpha characters" 	|
 | Parse validated UserInput to WordArray 	| sparkle 	| WordArray =["sparkle"] 	|
 | Split UserInput WordArray to individual characters (array elements) 	| WordArray=["sparkle"] 	| 1+3+1+1+5+1+1<br>s+p+a+r+k+l+e 	|

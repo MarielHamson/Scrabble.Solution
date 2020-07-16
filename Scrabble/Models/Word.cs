@@ -4,8 +4,8 @@ using System.Linq;
 
 namespace Scrabble.Models
 {
-  public class WordScrabble // edit
+  public class Word 
   {
-    // properties, constructors, methods, etc. go here
+    
     }
   }

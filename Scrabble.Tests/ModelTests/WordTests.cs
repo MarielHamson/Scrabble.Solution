@@ -7,13 +7,13 @@ using System.Linq;
 namespace Scrabble.Tests
 {
   [TestClass]
-  public class WordScrabbleTests
+  public class WordTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue() //edit
+    public void WordCheckerConstructor_ConstructAnInstanceOfAClass_Sparkle()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      WordChecker testWordChecker = new WordChecker("Sparkle");
+      Assert.AreEqual("Sparkle", testWordChecker.Input);
     }
 
   }
