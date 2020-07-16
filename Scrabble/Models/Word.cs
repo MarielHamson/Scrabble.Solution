@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Word
 {
@@ -10,6 +12,18 @@ namespace Word
     {
       Input = input;
     }
+
+    public bool IsOnlyAlphaCharacters()
+    {
+      if (Regex.IsMatch(Input, "^[a-zA-Z]*$"))
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
+    }
+    
   }
 }
-
