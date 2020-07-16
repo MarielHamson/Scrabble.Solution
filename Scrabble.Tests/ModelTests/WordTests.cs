@@ -16,5 +16,11 @@ namespace Word.Tests
       Assert.AreEqual("Sparkle", testWordChecker.Input);
     }
 
+    [TestMethod]
+    public void IsOnlyAlphaCharacters_ChecksIfInputIsStringOfAlphaChars_False()
+    {
+      WordChecker testWordChecker = new WordChecker("R2D2");
+      Assert.AreEqual(false, testWordChecker.IsOnlyAlphaCharacters());
+    }
   }
 }
