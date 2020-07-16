@@ -1,13 +1,16 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Scrabble;
+using Scrabble.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Scrabble.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ClassNameTests //edit
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue() //edit
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
       Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
