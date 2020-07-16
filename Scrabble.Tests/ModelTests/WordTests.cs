@@ -1,13 +1,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Scrabble.Models;
+using Word;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Scrabble.Tests
+namespace Word.Tests
 {
   [TestClass]
-  public class WordTests
+  public class WordCheckerTests
   {
     [TestMethod]
     public void WordCheckerConstructor_ConstructAnInstanceOfAClass_Sparkle()

@@ -1,11 +1,15 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace Scrabble.Models
+namespace Word
 {
-  public class Word 
+  public class WordChecker
   {
-    
+    public string Input {get; set;}
+
+    public WordChecker(string input)
+    {
+      Input = input;
     }
   }
+}
+

@@ -1,16 +1,15 @@
 using System;
+using Scrabble;
 using System.Collections.Generic;
 using System.Linq;
-using Scrabble;
-using Scrabble.Models;
 
 namespace Scrabble
 {
-  class Scrabble
+  public class Program
   {
-    public static void Main()
+    static void Main()
     {
-      
+      Console.WriteLine("Please enter a scrabble word:"); 
     }
 
   }
