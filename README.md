@@ -4,17 +4,17 @@
 
 <br>
 
-*EDIT* # __
+# Scrabble
 
-*EDIT* #### __	
+#### A game of Words	
 
-#### By _**Tristan Emmerson**_
+#### By _**Tristan Emmerson, Allison Sadin, Cody Fritz**_
 
 <br>
 
 ## **DESCRIPTION**
 
-*EDIT* __
+This application will allow the user to play scrabble with the console. The user may input a word and the application will return a number of points for every letter played.
 
 <br>
 
@@ -70,7 +70,7 @@
 
 ## **Known Bugs**
 
-*EDIT* _**No Known Bugs:**7/3/2020_
+*EDIT* _**No Known Bugs:**7/16/2020_
 
 <br>
 
@@ -94,4 +94,4 @@ _**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html
 
 [logo]: https://img.shields.io/bower/l/bootstrap "MIT License"
 
-Copyright (c) 2020 **_Tristan Emmerson, Stickerslug Inc._**
+Copyright (c) 2020 **_Tristan Emmerson, Allison Sadin, Cody Fritz Stickerslug Inc._**
