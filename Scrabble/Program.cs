@@ -1,3 +1,5 @@
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 using System;
 using Scrabble;
 using System.Collections.Generic;
@@ -7,11 +9,16 @@ namespace Scrabble
 {
   public class Program
   {
-    static void Main()
+    public static void Main(string[] args)
     {
-      Console.WriteLine("Please enter a scrabble word:"); 
+      var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
+
+      host.Run();
     }
-
   }
-
 }

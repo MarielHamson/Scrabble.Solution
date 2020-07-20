@@ -124,7 +124,7 @@ _MSTest_
 
 [logo]: https://img.shields.io/bower/l/bootstrap "MIT License"
 
-Copyright (c) 2020 **_[Tristan Emmerson](tristan@stickerslug.com), [Allison Sadin](aesadin@gmail.com), [Cody Fritz](clanalia55@gmail.com)_**
+Copyright (c) 2020 **_ [Allison Sadin](aesadin@gmail.com)_**
 
 
 

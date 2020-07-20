@@ -6,7 +6,7 @@ namespace Word.Models
 {
   public class WordChecker
   {
-    public string Input {get; set;}
+    public string Input { get; set; }
 
     public WordChecker(string input)
     {
@@ -26,3 +26,4 @@ namespace Word.Models
     }
   }
 }
+

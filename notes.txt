@@ -1,15 +1,15 @@
 //ditto 
 
 // public Dictionary<int, List<string>> tileValue = new Dictionary<int, List<string>> 
-    // {
-    //   { 1, new List<string> {"a", "e", "i", "o", "u", "l", "n", "r", "s", "t"} }, 
-    //   { 2, new List<string> {"d", "g"} }, 
-    //   { 3, new List<string> {"b", "c", "m", "p"} }, 
-    //   { 4, new List<string> {"f", "h", "v", "w", "y"} },  
-    //   { 5, new List<string> {"k"} }, 
-    //   { 8, new List<string> {"j", "x"} },
-    //   { 10, new List<string> {"q", "z"} }  
-    // };
+     {
+       { 1, new List<string> {"a", "e", "i", "o", "u", "l", "n", "r", "s", "t"} }, 
+       { 2, new List<string> {"d", "g"} }, 
+       { 3, new List<string> {"b", "c", "m", "p"} }, 
+       { 4, new List<string> {"f", "h", "v", "w", "y"} },  
+       { 5, new List<string> {"k"} }, 
+       { 8, new List<string> {"j", "x"} },
+       { 10, new List<string> {"q", "z"} }  
+     };
 
     //  public void GetValue()
     // {
@@ -18,3 +18,9 @@
     //     foreach (string value in list.Value) <- for every string value (letter) inside the list of values, attach it to the key integer
     //     {
     //  Console.WriteLine("Key = {0}, Value = {1}", list.Key, value); <- then do this: display integer key with correlating letter value
+
+    using Microsoft.VisualStudio.TestTools.UnitTesting; // all these for testing class
+using Word.Models; /// communicating namespace from word.cs export and import in javascript
+using System;// allows readline writeline
+using System.Collections.Generic; // allows lists and dictionaries and arrays
+using System.Linq; //integrates query capabilities into c#, find fidderences between two lists, reorder fields of a delimited file, create object collections, split files etc
